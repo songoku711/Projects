@@ -1,0 +1,154 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Mon Sep 03 23:45:06 2018
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000008
+                   .org_2       code   0x000008    program   0x000010
+                   .org_3       code   0x000018    program   0x0002d8
+.config_300001_BOOTLOADER.O    romdata   0x300001    program   0x000001
+.config_300002_BOOTLOADER.O    romdata   0x300002    program   0x000001
+.config_300003_BOOTLOADER.O    romdata   0x300003    program   0x000001
+.config_300005_BOOTLOADER.O    romdata   0x300005    program   0x000001
+.config_300006_BOOTLOADER.O    romdata   0x300006    program   0x000001
+.config_300008_BOOTLOADER.O    romdata   0x300008    program   0x000001
+.config_300009_BOOTLOADER.O    romdata   0x300009    program   0x000001
+.config_30000A_BOOTLOADER.O    romdata   0x30000a    program   0x000001
+.config_30000B_BOOTLOADER.O    romdata   0x30000b    program   0x000001
+.config_30000C_BOOTLOADER.O    romdata   0x30000c    program   0x000001
+.config_30000D_BOOTLOADER.O    romdata   0x30000d    program   0x000001
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0002ef      
+                            0x300001    0x300003      
+                            0x300005    0x300006      
+                            0x300008    0x30000d      
+            763 out of 66584 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   AddCrc   0x000104    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         AppendDataBuffer   0x00008e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+            BootInfoBlock   0x000126    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         BootInfoBlockEnd   0x000130    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             BootloadMode   0x00002e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+     BootloaderBreakCheck   0x00000c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           BootloaderInfo   0x000130    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          BootloaderStart   0x000000    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           CheckAppVector   0x000010    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          CheckAppVector2   0x00001c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             CheckCommand   0x0000d4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               DoAutoBaud   0x00004a    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         EraseAddressOkay   0x0001c4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+ EraseEndFlashAddressOkay   0x00019c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               EraseFlash   0x000186    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+            GotoAppVector   0x000024    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+HighPriorityInterruptVector   0x000008    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          JUMPTABLE_BEGIN   0x0000da    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+     LoadHoldingRegisters   0x000224    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+LowPriorityInterruptVector   0x000018    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           NextEraseBlock   0x0001ca    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                    NoETX   0x000086    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                    NoSTX   0x000080    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               ReadEeprom   0x00023c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           ReadEepromLoop   0x00023e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                ReadFlash   0x000142    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             ReadHostByte   0x0002c4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          ReceiveDataLoop   0x00007a    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+            RetryAutoBaud   0x000050    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          SendAcknowledge   0x00028c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             SendChecksum   0x000294    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                  SendETX   0x00029c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           SendEscapeByte   0x0002a2    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             SendHostByte   0x0002ba    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              StartOfLine   0x000072    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               StartWrite   0x0002e0    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           TableWriteWREG   0x0002dc    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              VerifyFlash   0x000158    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          VerifyPacketCRC   0x000094    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+      VerifyPacketCrcLoop   0x0000a0    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WaitForHostByte   0x0002c8    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+       WaitForHostCommand   0x00006c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              WaitForRise   0x0000f4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WaitForRiseLoop   0x0000f6    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                    WrDLE   0x0002b4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                   WrNext   0x0002b8    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         WriteAddressOkay   0x000220    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              WriteConfig   0x000278    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WriteConfigLoop   0x00027e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              WriteEeprom   0x000258    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WriteEepromLoop   0x00025c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+ WriteEndFlashAddressOkay   0x0001f8    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               WriteFlash   0x0001e2    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                     WtSR   0x0000fe    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+          BootloaderStart   0x000000    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+HighPriorityInterruptVector   0x000008    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+     BootloaderBreakCheck   0x00000c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           CheckAppVector   0x000010    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+LowPriorityInterruptVector   0x000018    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          CheckAppVector2   0x00001c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+            GotoAppVector   0x000024    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             BootloadMode   0x00002e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               DoAutoBaud   0x00004a    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+            RetryAutoBaud   0x000050    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+       WaitForHostCommand   0x00006c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              StartOfLine   0x000072    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          ReceiveDataLoop   0x00007a    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                    NoSTX   0x000080    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                    NoETX   0x000086    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         AppendDataBuffer   0x00008e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          VerifyPacketCRC   0x000094    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+      VerifyPacketCrcLoop   0x0000a0    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             CheckCommand   0x0000d4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          JUMPTABLE_BEGIN   0x0000da    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              WaitForRise   0x0000f4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WaitForRiseLoop   0x0000f6    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                     WtSR   0x0000fe    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                   AddCrc   0x000104    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+            BootInfoBlock   0x000126    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         BootInfoBlockEnd   0x000130    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           BootloaderInfo   0x000130    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                ReadFlash   0x000142    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              VerifyFlash   0x000158    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               EraseFlash   0x000186    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+ EraseEndFlashAddressOkay   0x00019c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         EraseAddressOkay   0x0001c4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           NextEraseBlock   0x0001ca    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               WriteFlash   0x0001e2    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+ WriteEndFlashAddressOkay   0x0001f8    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+         WriteAddressOkay   0x000220    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+     LoadHoldingRegisters   0x000224    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               ReadEeprom   0x00023c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           ReadEepromLoop   0x00023e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              WriteEeprom   0x000258    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WriteEepromLoop   0x00025c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+              WriteConfig   0x000278    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WriteConfigLoop   0x00027e    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          SendAcknowledge   0x00028c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             SendChecksum   0x000294    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                  SendETX   0x00029c    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           SendEscapeByte   0x0002a2    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                    WrDLE   0x0002b4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+                   WrNext   0x0002b8    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             SendHostByte   0x0002ba    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+             ReadHostByte   0x0002c4    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+          WaitForHostByte   0x0002c8    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+           TableWriteWREG   0x0002dc    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+               StartWrite   0x0002e0    program     static D:\Microchip\Projects\[18F26K22] Bootloader\bootloader.asm
+
+
